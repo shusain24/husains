@@ -1,0 +1,12 @@
+.cardStyle{
+    background-color: transparent;
+    color: aliceblue;
+}
+
+
+.headingStyle{
+    font-size: 100px;
+    color: aqua;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px 4px rgb(248, 8, 152);
+}

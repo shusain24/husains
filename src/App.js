@@ -24,7 +24,8 @@ function App() {
        <Navbar/>
 
     
-       <div className="container">
+       {/* <div className="container"> */}
+       <div>
        <Routes>
          
           <Route exact path="/" element={<Home />} />
