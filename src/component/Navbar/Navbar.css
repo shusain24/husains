@@ -3,7 +3,8 @@
     display: inline-block;
     font-size: 30px;
     font-weight: bold;
-    padding: 2px 3px;
+    padding: 2px 5px;
+    padding-right:10px;
     color: #03fb7f;
     text-decoration: none;
     /* text-transform: uppercase; */

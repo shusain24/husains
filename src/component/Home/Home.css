@@ -5,8 +5,30 @@
 
 
 .headingStyle{
-    font-size: 80px;
+    font-size: 55px;
     color: aqua;
     font-family: 'Tangerine', cursive;
     text-shadow: 4px 4px 4px rgb(248, 8, 152);
 }
+
+
+.headingStyle1{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    padding-right: 50px;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px 4px rgb(8, 248, 40);
+}
+
+
+.imageStyle{
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.imageStyle:hover{
+    opacity: 1;
+  }
