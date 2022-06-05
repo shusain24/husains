@@ -9,6 +9,9 @@
     color: aqua;
     font-family: 'Tangerine', cursive;
     text-shadow: 4px 4px 4px rgb(248, 8, 152);
+    font-weight: bolder;
+    word-spacing: 20px;
+    letter-spacing: 3px;
 }
 
 
@@ -18,7 +21,9 @@
     padding-right: 50px;
     font-weight: bold;
     font-family: 'Tangerine', cursive;
-    text-shadow: 4px 4px 4px rgb(8, 248, 40);
+    text-shadow: 4px 4px 4px rgb(1, 255, 9);
+    word-spacing: 8px;
+    letter-spacing: 2px;
 }
 
 

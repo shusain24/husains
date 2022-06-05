@@ -1,0 +1,10 @@
+.greetingMsg{
+    font-size: 35px;
+    color: rgb(0, 255, 8);
+    padding-right: 50px;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px 4px rgb(248, 8, 8);
+    word-spacing: 20px;
+    letter-spacing: 3px;
+}

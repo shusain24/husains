@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTypewriter } from 'react-simple-typewriter';
-// import {TypeWriterEffect} from 'react-typewriter-effect';
+import Greetingmsg from '../Greetings/Greetingmsg';
 import './Home.css';
 import logo from './loga.png';
+
 
 export default function Home() {
   const {text} = useTypewriter({
@@ -21,7 +22,7 @@ export default function Home() {
           <div className="card cardStyle">
             <img className='imageStyle' src={logo} alt='myLogo'/>
             <div className="card-body">
-              <p className='headingStyle'>Hey, <span> Good Morning...!!</span></p>
+              <p className='headingStyle'>Hey  folks, <span><Greetingmsg /></span></p>
               <p className='headingStyle1'>{text}</p>
               {/* <Link to="#" className="btn btn-primary">Go somewhere</Link> */}
             </div>
