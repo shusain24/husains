@@ -16,7 +16,7 @@
    
 }
 .navTextStyleHeading:hover{
-    background: #e254cf;
+    background: transparent;
     border-radius: 50%;
     color: #03fb7f;
     box-shadow: 0 0 5px #dd50ba,
@@ -35,7 +35,7 @@
     display: inline-block;
     font-size: 18px;
     font-weight: bold;
-    padding: 5px;
+    padding: 7px;
     color: #03fb7f;
     text-decoration: none;
     /* text-transform: uppercase; */
@@ -47,7 +47,7 @@
     text-shadow: 4px 4px 4px rgb(8, 244, 248);
 }
 .navTextStyle:hover{
-    background: #03e9f4;
+    background: transparent;
     color: #ff00d4;
     box-shadow: 0 0 5px #03e9f4,
                 0 0 25px #03e9f4,

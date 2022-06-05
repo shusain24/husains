@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 import { SiSkillshare } from "react-icons/si";
-import { FcList, FcCallback, FcGallery, FcLike, FcHome, FcAbout  } from "react-icons/fc";
+import { FcList, FcCallback, FcGallery, FcHome, FcAbout  } from "react-icons/fc";
 
 const Navbar = () => {
   
@@ -11,7 +11,7 @@ const Navbar = () => {
    <div className=''>
       <nav className="navbar navbar-expand-lg navbar-light p-md-3 ">
         <div className="container" >
-          <Link className="navTextStyleHeading" to="/"><FcLike/>Husains</Link>
+          <Link className="navTextStyleHeading" to="/">Husains</Link>
           <button
            className="navbar-toggler" 
 		        type="button" 
