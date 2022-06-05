@@ -12,7 +12,7 @@ if(curDate>=1 && curDate<12){
 else if(curDate>=12 && curDate<17){
     greetings='Good Afternoon..!!'
 }
-else if(curDate>=17 && curDate<22){
+else if(curDate>=17 && curDate<21){
     greetings='Good Evening..!!'
 }
 else{

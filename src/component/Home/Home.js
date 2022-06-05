@@ -18,7 +18,7 @@ export default function Home() {
   return (
    <div className="container">
      <div className="row">
-        <div className="col-sm-5"> 
+        <div className="col-sm-4"> 
           <div className="card cardStyle">
             <img className='imageStyle' src={logo} alt='myLogo'/>
             <div className="card-body">
@@ -28,10 +28,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      <div className="col-sm-7">
+      <div className="col-sm-8">
         <div className="card ">
           <div className="card-body">
-            <h5 className="card-title">Special title treatment</h5>
+            <h5 className="card-title greetinsStyle">Greetings of the Day...!!</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
             <Link to="#" className="btn btn-primary">Go somewhere</Link>
           </div>

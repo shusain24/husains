@@ -37,3 +37,12 @@
 .imageStyle:hover{
     opacity: 1;
   }
+
+
+
+  .greetinsStyle{
+    font-family: 'Red Hat Display';
+    color: red;
+    font-weight: 500;
+    font-size : 55px;
+  }
