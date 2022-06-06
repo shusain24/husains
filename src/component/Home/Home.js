@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useTypewriter } from 'react-simple-typewriter';
 import Greetingmsg from '../Greetings/Greetingmsg';
+import Homecode from './Code/Homecode/Homecode';
 import './Home.css';
 import logo from './loga.png';
 
@@ -29,12 +29,9 @@ export default function Home() {
           </div>
         </div>
       <div className="col-sm-8">
-        <div className="card ">
-          <div className="card-body">
-            <h5 className="card-title greetinsStyle">Greetings of the Day...!!</h5>
-            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <Link to="#" className="btn btn-primary">Go somewhere</Link>
-          </div>
+        
+      <div className="card cardA" >
+             <Homecode/>
         </div>
       </div>
   </div>
