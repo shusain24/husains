@@ -5,7 +5,7 @@
 
 
 .headingStyle{
-    font-size: 55px;
+    /* font-size: 55px; */
     color: aqua;
     font-family: 'Tangerine', cursive;
     text-shadow: 4px 4px 4px rgb(248, 8, 152);
@@ -14,17 +14,41 @@
     letter-spacing: 3px;
 }
 
+@media screen and (min-width: 501px) {
+    .headingStyle {
+      font-size: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+   .headingStyle {
+      font-size:20px;
+    }
+  }
+
 
 .headingStyle1{
-    font-size: 50px;
-    color: rgb(255, 0, 0);
+    /* font-size: 50px; */
+    color: rgb(247, 181, 181);
     padding-right: 50px;
     font-weight: bold;
     font-family: 'Tangerine', cursive;
-    text-shadow: 4px 4px 4px rgb(1, 255, 9);
+    text-shadow: 4px 4px 4px rgb(130, 206, 133);
     word-spacing: 8px;
     letter-spacing: 2px;
 }
+
+@media screen and (min-width: 501px) {
+    .headingStyle1 {
+      font-size: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+   .headingStyle1 {
+      font-size:18px;
+    }
+  }
 
 
 .imageStyle{
@@ -33,6 +57,21 @@
     border-radius: 50%;
     opacity: 0.5;
 }
+
+@media screen and (min-width: 501px) {
+    .imageStyle {
+        width: 160px;
+        height: 170px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+   .imageStyle {
+    width: 100px;
+    height: 110px;
+    }
+  }
+
 
 .imageStyle:hover{
     opacity: 1;
@@ -45,6 +84,18 @@
     color: red;
     font-weight: 500;
     font-size : 55px;
+  }
+  
+@media screen and (min-width: 501px) {
+    .greetinsStyle {
+      font-size: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+   .greetinsStyle {
+      font-size:20px;
+    }
   }
 
   .cardA{
