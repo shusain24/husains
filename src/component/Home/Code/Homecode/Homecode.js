@@ -1,15 +1,10 @@
 import React from 'react'
 import Javacode from '../Javacode';
+import Pythoncode from '../Pythoncode';
 import Reactcode from '../Reactcode';
 
 export default function Homecode() {
     
-        var title1 = String.raw`
-                 ___| |_  ___  _____ __      _  ___  _____ ___
-                / __| __|/ _  |  __/ \ \ /\ / // _  |  __// __|
-                \__ | |_  (_| | |     \ V  V /  (_| | |   \__ |Saddam
-                |___/\__|\__,_|_|      \_/\_/  \__,_|_|   |___/
-            `; 
 
   return (
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -21,7 +16,7 @@ export default function Homecode() {
         <Reactcode/>
     </div>
     <div class="carousel-item">
-    <pre>{title1}</pre>
+       <Pythoncode/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
