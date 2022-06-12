@@ -1,12 +1,48 @@
 import React from 'react'
+import './Skills.css'
+import sql from  './image/sql.png'
+import Angular from  './image/Angular.png'
+import Aws from  './image/aws.png'
+import awsa from  './image/awsa.png'
+import bootstrap from  './image/Bootstrap.png'
+import css from  './image/Css.png'
+import docker from  './image/docker.png'
+import git from  './image/git.png'
+import go from  './image/Go.png'
+import html from  './image/Html.png'
+import java from  './image/java.png'
+import jenkins from  './image/jenkins.png'
+import jquery from  './image/jqery.png'
+import js from  './image/js.png'
+import kubernates from  './image/Kubernates.png'
+import node from  './image/Node.png'
+import postman from  './image/postman.png'
+import react from  './image/react.png'
+import spring from  './image/spring.png'
 
 export default function Skills() {
   
 return (
-  
-  <div>
-    
-    <h1 >Welcome to Skills page.....!!</h1>
-    </div>
+  <div className="container">
+  <img className='imageStyle' src={sql} alt="sql"/>
+    <img className='imageStyle' src={Angular} alt="Angular"/>
+    <img className='imageStyle' src={Aws} alt="sql"/>
+    <img className='imageStyle' src={awsa} alt="awsa"/>
+    <img className='imageStyle' src={bootstrap} alt="bootstrap"/>
+    <img className='imageStyle' src={css} alt="css"/>
+    <img className='imageStyle' src={docker} alt="docker"/>
+    <img className='imageStyle' src={git} alt="git"/>
+    <img className='imageStyle' src={go} alt="go"/>
+    <img className='imageStyle' src={html} alt="html"/>s
+    <img className='imageStyle' src={java} alt="java"/>
+    <img className='imageStyle' src={jenkins} alt="jenkins"/>
+    <img className='imageStyle' src={jquery} alt="jquery"/>
+    <img className='imageStyle' src={js} alt="js"/>
+    <img className='imageStyle' src={kubernates} alt="kubaernates"/>
+    <img className='imageStyle' src={node} alt="node"/>
+    <img className='imageStyle' src={postman} alt="postman"/>
+    <img className='imageStyle' src={react} alt="react"/>
+    <img className='imageStyle' src={spring} alt="spring"/>
+  </div>
   )
 }
