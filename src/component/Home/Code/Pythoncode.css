@@ -1,18 +1,19 @@
-.codeStyle{
-    color: rgb(255, 255, 255);
-    font-family: 'Tangerine', cursive;
-    text-shadow: 4px 4px 4px rgb(248, 8, 8);
-    word-spacing: 3px;
-    letter-spacing: 1px;
+.codeStyle1{
+  color: rgb(255, 255, 255);
+  padding-right: 50px;
+  /* font-weight: bold; */
+  text-shadow: 4px 4px 4px rgb(192, 0, 0);
+  word-spacing: 5px;
+  letter-spacing: 1px;
 }
 @media screen and (min-width: 501px) {
-    .codeStyle {
+    .codeStyle1 {
       font-size: 20px;
     }
   }
   
   @media screen and (max-width: 500px) {
-   .codeStyle {
+   .codeStyle1 {
       font-size:9px;
     }
   }

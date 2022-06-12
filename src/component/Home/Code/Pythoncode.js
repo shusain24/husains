@@ -25,7 +25,7 @@ export default function Pythoncode() {
         `;
   return (
     <div>
-      <pre className='codeStyle'>{timeHour}</pre>
+      <pre className="codeStyle1">{timeHour}</pre>
     </div>
   )
 }
