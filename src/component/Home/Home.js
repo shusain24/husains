@@ -20,7 +20,7 @@ export default function Home() {
      <div className="row">
         <div className="col-sm-4"> 
           <div className="card cardStyle">
-            <img className='imageStyle' src={logo} alt='myLogo'/>
+            <img className='imageStyle1' src={logo} alt='myLogo'/>
             <div className="card-body">
               <p className='headingStyle'>Hey  folks, <span><Greetingmsg /></span></p>
               <p className='headingStyle1'>{text}</p>

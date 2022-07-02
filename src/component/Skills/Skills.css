@@ -6,16 +6,18 @@
 
 
 .imageStyle{
-    width: 60px;
-    height: 50px;
+    width: 80px;
+    height: 75px;
     border-radius: 50%;
+    margin-left:8px;
+    margin-top: 10px;
     opacity: 0.5;
 }
 
 @media screen and (min-width: 501px) {
     .imageStyle {
-        width: 60px;
-        height: 50px;
+        width: 80px;
+        height: 75px;
     }
   }
   
@@ -24,4 +26,35 @@
     width: 100px;
     height: 110px;
     }
+  }
+
+  
+.imageStyle:hover{
+    opacity: 1;
+  }
+
+
+  .borderStyle{
+    color: rgb(253, 253, 253);
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px 4px rgb(248, 8, 152);
+    font-weight: bolder;
+    text-align: center;
+  }
+  .borderStyle1{
+    color: rgb(2, 255, 40);
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px 4px rgb(255, 21, 4);
+    font-weight: bolder;
+    text-align: center;
+  }
+  .borderStyle2{
+    color: rgb(255, 17, 251);
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px 4px rgb(26, 255, 0);
+    font-weight: bolder;
+    text-align: center;
   }
