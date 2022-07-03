@@ -12,6 +12,8 @@ import angular from  './images/Angular.png'
 import jquery from  './images/jqery.png'
 import bootstrap from  './images/Bootstrap.png'
 import node from  './images/Node.png'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional
 
 
 function progressBar() {
@@ -50,7 +52,9 @@ function progressBar() {
                     );
                     }}
                 </AnimatedProgressProvider> 
-                <p className='titleStyle'>HTML</p>
+                <Tippy className='hoverStyle' content="Hello HTML">
+                <p className='titleStyle'>HTML</p> 
+                </Tippy>
     </div> 
         
     <div className='barStyle'>

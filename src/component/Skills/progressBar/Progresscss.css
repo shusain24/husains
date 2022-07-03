@@ -43,3 +43,10 @@
     height: 110px; 
     margin-top: 15px;
   }
+
+
+  .hoverStyle{
+    color: aliceblue;
+    background-color: transparent;
+    border: red;
+  }
