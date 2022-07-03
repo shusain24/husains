@@ -17,22 +17,13 @@ import postman from  './images/postman.png'
 export default function ToolsBar() {
   return (
      <div className="container">
-        <div className="row">
-            
-          {/* <img className='imageStyle' src={sql} alt="sql"/>
-          <img className='imageStyle' src={awsa} alt="awsa"/>
-          <img className='imageStyle' src={docker} alt="docker"/>
-          <img className='imageStyle' src={git} alt="git"/>
-          <img className='imageStyle' src={jenkins} alt="jenkins"/>
-          <img className='imageStyle' src={kubernates} alt="kubaernates"/>
-          <img className='imageStyle' src={postman} alt="postman"/>
-          <img className='imageStyle' src={aws} alt="aws"/> */}
+        <div className="row"> 
                 
         <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={60}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -42,15 +33,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "lightred",
                     zIndex:1,
                     pathColor: "blue",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -63,14 +51,14 @@ export default function ToolsBar() {
                     );
                     }}
                 </AnimatedProgressProvider> 
-                <p className='titleStyle'>Aws</p>
+                <p className='titleStyle'>Aws-Cloud</p>
     </div> 
         
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={90}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -80,15 +68,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
                     pathColor: "red",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -106,8 +91,8 @@ export default function ToolsBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={90}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -117,15 +102,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
                     pathColor: "green",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -143,8 +125,8 @@ export default function ToolsBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -154,15 +136,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
                     pathColor: "yellow",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -181,8 +160,8 @@ export default function ToolsBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={75}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -192,15 +171,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "Pink",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    pathColor: "#1fed4c",
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -213,13 +189,13 @@ export default function ToolsBar() {
                 );
                 }}
             </AnimatedProgressProvider>
-                <p className='titleStyle'>Awsa</p>
+                <p className='titleStyle'>AWS </p>
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -229,15 +205,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
                     pathColor: "Cyan",
-                    trailColor: "lightred", 
-                    // backgroundColor: "#3e98c7"
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -255,8 +228,8 @@ export default function ToolsBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={50}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -266,15 +239,12 @@ export default function ToolsBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "Oral",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    pathColor: "#ed9c11",
+                    trailColor: "#ccc6bc",  
                 })}
                 
                 >
@@ -292,8 +262,8 @@ export default function ToolsBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >

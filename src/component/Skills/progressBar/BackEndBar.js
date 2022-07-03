@@ -15,9 +15,9 @@ export default function BackEndBar() {
         <div className="row">
         <div className='barStyle'> 
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueStart={95}
+            valueEnd={0}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -33,8 +33,8 @@ export default function BackEndBar() {
                 styles={buildStyles({
                     textColor: "lightred",
                     zIndex:1,
-                    pathColor: "blue",
-                    trailColor: "lightcyan", 
+                    pathColor: "red",
+                    trailColor: "#fca7a9", 
                     // backgroundColor: "#3e98c7"
                 })}
                 
@@ -51,11 +51,48 @@ export default function BackEndBar() {
                 <p className='titleStyle'>Java</p>
     </div> 
         
+    <div className='barStyle'> 
+            <AnimatedProgressProvider
+            valueStart={85}
+            valueEnd={0}
+            duration={5}
+            easingFunction={easeQuadInOut}
+            repeat
+        >
+            {value => {
+            const roundedValue = Math.round(value);
+            return (
+
+                <CircularProgressbarWithChildren 
+                value={value}
+                text={`${roundedValue}%`}
+                //  background
+                //  backgroundPadding={6}
+                styles={buildStyles({
+                    textColor: "lightred",
+                    zIndex:1,
+                    pathColor: "#3424e0",
+                    trailColor: "#fca7a9", 
+                    // backgroundColor: "#3e98c7"
+                })}
+                
+                >
+                    <img
+                    className='imageStyle'
+                    src ={java}
+                    alt="java"
+                    />  
+                    </CircularProgressbarWithChildren>
+                    );
+                    }}
+                </AnimatedProgressProvider> 
+                <p className='titleStyle'>AdvancedJava</p>
+    </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueStart={95}
+            valueEnd={0}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -71,8 +108,8 @@ export default function BackEndBar() {
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "red",
-                    trailColor: "lightcyan", 
+                    pathColor: "#17ebeb",
+                    trailColor: "#fca7a9", 
                     // backgroundColor: "#3e98c7"
                 })}
                 
@@ -90,9 +127,9 @@ export default function BackEndBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueStart={100}
+            valueEnd={0}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -108,8 +145,8 @@ export default function BackEndBar() {
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "green",
-                    trailColor: "lightcyan", 
+                    pathColor: "#f70ad4",
+                    trailColor: "#fca7a9", 
                     // backgroundColor: "#3e98c7"
                 })}
                 
@@ -127,9 +164,9 @@ export default function BackEndBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueStart={70}
+            valueEnd={0}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -146,7 +183,7 @@ export default function BackEndBar() {
                     textColor: "white",
                     zIndex:1,
                     pathColor: "green",
-                    trailColor: "lightcyan", 
+                    trailColor: "#fca7a9", 
                     // backgroundColor: "#3e98c7"
                 })}
                 

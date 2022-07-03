@@ -21,8 +21,8 @@ function progressBar() {
         <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -32,15 +32,12 @@ function progressBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
-                    textColor: "lightred",
+                    textColor: "white",
                     zIndex:1,
-                    pathColor: "blue",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    pathColor: "#1100ff",
+                    trailColor: "lightcyan",  
                 })}
                 
                 >
@@ -59,8 +56,8 @@ function progressBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -97,7 +94,7 @@ function progressBar() {
             <AnimatedProgressProvider
             valueStart={0}
             valueEnd={85}
-            duration={1.4}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -107,15 +104,12 @@ function progressBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`}  
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
                     pathColor: "green",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    trailColor: "lightcyan",  
                 })}
                 
                 >
@@ -133,8 +127,8 @@ function progressBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={90}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -150,7 +144,7 @@ function progressBar() {
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "yellow",
+                    pathColor: "#00f7ff",
                     trailColor: "lightcyan", 
                     // backgroundColor: "#3e98c7"
                 })}
@@ -171,8 +165,8 @@ function progressBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={70}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -182,15 +176,12 @@ function progressBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "Pink",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    pathColor: "#fffb00",
+                    trailColor: "lightcyan",  
                 })}
                 
                 >
@@ -208,8 +199,8 @@ function progressBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -219,15 +210,12 @@ function progressBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "Cyan",
-                    trailColor: "lightred", 
-                    // backgroundColor: "#3e98c7"
+                    pathColor: "#00ff00",
+                    trailColor: "lightred",  
                 })}
                 
                 >
@@ -245,8 +233,8 @@ function progressBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={95}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
         >
@@ -256,15 +244,12 @@ function progressBar() {
 
                 <CircularProgressbarWithChildren 
                 value={value}
-                text={`${roundedValue}%`}
-                //  background
-                //  backgroundPadding={6}
+                text={`${roundedValue}%`} 
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "Oral",
-                    trailColor: "lightcyan", 
-                    // backgroundColor: "#3e98c7"
+                    pathColor: "red", 
+                    trailColor: "lightcyan",  
                 })}
                 
                 >
@@ -282,11 +267,11 @@ function progressBar() {
     <div className='barStyle'>
             <AnimatedProgressProvider
             valueStart={0}
-            valueEnd={85}
-            duration={1.4}
+            valueEnd={100}
+            duration={5}
             easingFunction={easeQuadInOut}
             repeat
-        >
+        > 
             {value => {
             const roundedValue = Math.round(value);
             return (
@@ -299,7 +284,7 @@ function progressBar() {
                 styles={buildStyles({
                     textColor: "white",
                     zIndex:1,
-                    pathColor: "Pink",
+                    pathColor: "#ff00b3",
                     trailColor: "lightcyan", 
                     // backgroundColor: "#3e98c7"
                 })}
