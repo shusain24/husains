@@ -21,8 +21,8 @@ export default function ToolsBar() {
                 
         <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={60}
+            valueStart={60}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -56,8 +56,8 @@ export default function ToolsBar() {
         
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={90}
+            valueStart={90}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -90,8 +90,8 @@ export default function ToolsBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={90}
+            valueStart={90}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -124,8 +124,8 @@ export default function ToolsBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -159,8 +159,8 @@ export default function ToolsBar() {
     
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={75}
+            valueStart={75}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -193,8 +193,8 @@ export default function ToolsBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -227,8 +227,8 @@ export default function ToolsBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={50}
+            valueStart={50}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -261,8 +261,8 @@ export default function ToolsBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat

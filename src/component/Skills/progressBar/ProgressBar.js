@@ -22,8 +22,8 @@ function progressBar() {
         <div className="row">  
         <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -59,8 +59,8 @@ function progressBar() {
         
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -96,8 +96,8 @@ function progressBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={85}
+            valueStart={85}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -130,8 +130,8 @@ function progressBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={90}
+            valueStart={90}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -168,8 +168,8 @@ function progressBar() {
     
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={70}
+            valueStart={70}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -202,8 +202,8 @@ function progressBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -236,8 +236,8 @@ function progressBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={95}
+            valueStart={95}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
@@ -270,8 +270,8 @@ function progressBar() {
     </div> 
     <div className='barStyle'>
             <AnimatedProgressProvider
-            valueStart={0}
-            valueEnd={100}
+            valueStart={100}
+            valueEnd={0}
             duration={5}
             easingFunction={easeQuadInOut}
             repeat
